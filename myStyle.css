@@ -1,0 +1,161 @@
+body{
+	margin-left:auto;
+	margin-right:auto;
+width: 75%;
+	color:#000000;		
+	font-family:sans-serif;
+	font-size: 1em;
+	min-width:800px;
+}
+
+
+/*Title of the pages*/
+h1 {
+	background-color: #FFFFFF;
+	margin-bottom:0px;
+	margin-top:0px;
+	border-bottom: 10px solid #000000;
+	font-family:sans-serif;	
+	font-size: 2em;
+	font-weight: bold;
+	font-style:italic;
+}
+
+
+
+/*Copyright line at end*/
+h6 {
+	background-color: #FFFFFF;	
+	margin-left: 140px;
+	color:#000000;
+	font-family:sans-serif;	
+	font-size: 0.75em;
+	clear:both;
+}
+
+
+/*Image after title before body*/
+div.header{
+	border-bottom:2px solid black;
+	height:50px;
+	background-image: url(images/background/circuit.jpg);
+}
+
+
+/*Navigation bar-*/
+div.nav{
+	float:left;
+}
+
+div.nav a{
+	text-decoration: none;
+}
+div.nav ul{
+	list-style:none;
+	margin: 0px 0px 0px 0px;
+	padding:0px;
+}
+div.nav li{
+	border-bottom: 2px solid black;
+	border-style:outset;
+} 
+div.nav li a:link,div.nav li a:visited{
+	display:block;
+	padding:5px 20px 5px 13px;
+	background-color: gray;	
+	color:#FFFFFF;
+	font-size:12pt;
+	font-weight:bold;	
+} 
+div.nav li a:hover{
+	display:block;
+	padding:5px 20px 5px 13px;
+	background-color: #FFD700;	
+	color: #000000;
+	font-size:12pt;
+	font-weight:bold;
+} 
+
+div.nav li a:active{
+	display:block;
+	padding:5px 20px 5px 13px;
+	background-color: #FFD700;	
+	color: #000000;
+	font-size:12pt;
+	font-weight:bold;
+} 
+
+/*Content of the Pages*/
+div.content{
+	background-color: #FFFFFF;
+	margin-left:140px;
+	color:#000000;		
+	font-family:sans-serif;
+	font-size: 1em;
+}
+
+/*Research Page Style*/
+div#BME{
+	border-bottom: 2px solid black;
+}
+
+/*Contact Page Style*/
+div#contact{
+	width:660px;
+}
+
+div#email{
+	float:left;
+}
+
+div#mail{
+	float:left;
+	margin-right:20px;
+}
+
+div#form{
+	float:left;
+	clear:both;
+}
+
+/*Classes Page*/
+div#Fall09{
+	float:left;
+	margin-right:20px;
+	margin-top:20px;
+}
+
+div#Spring10{
+	float:left;
+	margin-right:20px;
+	margin-top:20px;
+}
+
+div#Summer10{
+	float:left;
+	margin-top:20px;
+}
+
+div#Fall10{
+	float:left;
+	margin-right:20px;
+	margin-top:20px;
+	clear:left;
+}
+
+div#Spring11{
+	float:left;
+	margin-right:20px;
+	margin-top:20px;
+}
+
+/*About Me*/
+div#speechMe{
+	float:left;
+	margin-right:10px;
+}
+
+div#compMe{
+	float:right;
+	margin-left:10px;
+}
